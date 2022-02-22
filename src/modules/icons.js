@@ -3,5 +3,4 @@ const icons = {
   doneEffect: { icon: 'fa-solid fa-check-double', linethrough: 'line-through' },
 };
 
-export const {undoneIcon, doneEffect} = icons;
-
+export const { undoneIcon, doneEffect } = icons;
