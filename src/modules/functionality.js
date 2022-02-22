@@ -1,4 +1,4 @@
-import Node from './object-class.js';
+import ListItem from './object-class.js';
 
 export default class Data {
   constructor() {
@@ -7,7 +7,7 @@ export default class Data {
   }
 
   add(item, finished) {
-    const newObject = new Node(item, finished);
+    const newObject = new ListItem(item, finished);
     newObject.object.index = this.count + 1;
     const newList = [...this.list, newObject.object];
     this.list = newList;

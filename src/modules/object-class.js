@@ -1,12 +1,11 @@
-export default class Node {
-  constructor(one, two) {
-    this.firstInput = one;
-    this.secondInput = two;
-    this.thirdInput = 0;
+export default class ListItem {
+  constructor(description, completed) {
+    this.firstInput = description;
+    this.secondInput = completed;
     this.object = {
       description: `${this.firstInput}`,
       completed: this.secondInput,
-      index: this.thirdInput,
+      index: 0,
     };
   }
 }
