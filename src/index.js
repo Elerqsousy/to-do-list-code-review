@@ -96,7 +96,7 @@ const insertlist = () => {
         return null;
       };
       const listItem = `<li
-    class="padding-lr focus to-do-item display-flex-row height-50 border-bottom" id="${
+    class="padding-l focus to-do-item display-flex-row height-50 border-bottom" id="${
   e.index
 }"
   >

@@ -69,16 +69,24 @@
   padding: 0 10px;
 }
 
+.padding-l {
+  padding-left: 10px;
+}
+
 .submit {
   transform: rotate(90deg);
 }
 
-.to-do-button-move,
 .check,
 .submit,
 .reset {
   width: 22px;
   height: auto;
+}
+
+.to-do-button-move {
+  width: 40px;
+  height: inherit;
 }
 
 .to-do-button-move:hover,
@@ -102,11 +110,12 @@
 .clear-button:hover,
 .check:hover,
 .submit:hover,
-.reset:hover {
+.reset:hover,
+.trash {
   cursor: pointer;
 }
 
-.to-do-button-move:hover {
+.dots:hover {
   cursor: move;
 }
 
